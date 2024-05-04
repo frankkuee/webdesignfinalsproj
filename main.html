@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cellphone hub</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class = "header">
+
+            <ul class = "fixed-navbar">
+        
+                <li class = "dropdown">
+          <button class = "dropbtn"> Company Sponsors </button>
+          <div class = "dropdown-content">
+           <a href="https://www.samsung.com/us/">Samsung</a>
+           <a href="https://www.apple.com/ph/store?afid=p238%7CsAIjmXuC3-dc_mtid_18707vxu38484_pcrid_698083220585_pgrid_16280229372_pntwk_g_pchan__pexid__ptid_kwd-2894985026_&cid=aos-ph-kwgo-brand--slid---product-">Apple (iPhone)</a>
+           <a href="https://www.mi.com/ph/">Xiaomi</a>
+           <a href="https://consumer.huawei.com/ph/offer/?gad_source=1&gclid=CjwKCAjw88yxBhBWEiwA7cm6pXM76-M6AN_wnMHoh-wnm7yXCqG5PHhjahITd6QtxBS0TgB2ZOjE-hoCAxEQAvD_BwE">Huawei</a>
+           <a href="https://www.vivoglobal.ph/">Vivo</a>
+           <a href="https://www.oppo.com/ph/">OPPO</a>
+           <a href="https://www.realme.com/ph/">Realme</a>
+           <a href="https://www.asus.com/ph/">ASUS (ZenFone)</a>
+          </div>
+        </li>
+        
+                <li> <a href="/company.html"> Members </a> </li>
+                <li> <a href="#product"> Products  </a> </li>
+                <li> <a href="/aboutus.html"> About Us  </a> </li>
+                <li> <a href="/login.html"> Log-in</a> </li>
+                <li class="search-bar">
+                    <form>
+                        <input type="text" name="search" placeholder="Search..">
+                    </form>
+                </li>
+            </ul>    
+                </div>
+        <div class="maincontainer1">
+            <div class="mcleft"></div>
+            <div class = "gradientbgContainer">
+                <div class="firstrow"><img src="/images/apple.png" class="applelogo"alt="applelogo"><img src="/images/Oppo-Logo.png" class="oppologo" alt="oppologo"><img src="/images/motorolalogo.png" class="motorolalogo" alt="motorolalogo"></div>
+                <div class="secondrow"><img src="/images/realmelogo.png" class="realmelogo" alt="realmelogo"><img src="/images/Xiaomi-Logo.png" class="xiaomilogo"alt="xiaomilogo"><img src="/images/nokia logo.png" class="nokialogo" alt="nokialogo"></div>
+                <div class="thirdrow"><img src="/images/OnePlus-Symbol.png" class="onepluslogo" alt="onepluslogo"><img src="/images/Google_Pixel.png" class="googlepixellogo"alt="googlepixellogo"><img src="/images/huaweilogo.png" class="huaweilogo"alt="huaweilogo"></div>
+                <div class="fourthrow"><img src="/images/original-samsung-logo-10.png" class="samsunglogo" alt="samsunglogo"><img src="/images/Vivo_mobile_logo.png" class="vivologo" alt="vivologo"><img src="/images/lglogo.png" class="lglogo"alt="lglogo"></div>
+            </div>
+            <div class="mcright"></div>
+        </div>
+
+      
+      <!--------------------------------------- Content of Phone and Accessories --------------------------------------->
+      <div id="product"class="header2">
+        Available Products
+      </div>
+        <script>
+            function addToCart(product) {
+                let quantity = document.getElementById('quantity-' + product).value;
+                alert('Added ' + quantity + ' ' + product + '(s) to cart');
+            }
+        
+            function buyNow(product) {
+                let quantity = document.getElementById('quantity-' + product).value;
+                alert('Buy now: ' + quantity + ' ' + product + '(s)');
+            }
+        </script>
+
+    <div id="product"  class="maincontainer2">
+        <div class = "product-container">
+        <!--===================================REALME 10 PRO 5G===================================-->
+            <div class = "card">
+                <img src = "/images/realme10pro.jpg" class = "card-img" alt = "Realme 10 Pro 5G">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Realme 10 Pro 5G </h1>
+                    <p class = "card-sub-title"> Price: ₱14,999.00 </p>
+                    <p class = "card-info"> 5G smartphone with advanced features
+                      <ul class = "specs">
+                         <li>5G connectivity</li>
+                         <li>6.4-inch Super AMOLED display</li>
+                         <li>Quad-camera setup (64MP + 8MP + 2MP + 2MP)</li>
+                         <li>128GB internal storage</li>
+                         <li>8GB RAM</li>
+                        <li>4500mAh battery with fast charging</li>
+                      </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-realme10pro5g" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('realme10pro5g')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('realme10pro5g')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================REALME 12 PRO+ 5G===================================-->
+        <div class = "card">
+                <img src = "/images/realme12pro.jpg" class = "card-img" alt = "Realme 12 Pro+ 5G">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Realme 12 Pro+ 5G </h1>
+                    <p class = "card-sub-title"> Price: ₱25,999.00 </p>
+                    <p class = "card-info"> This model is feature-packed smartphone known for its advanced capabilities
+                     <ul class = "specs">
+                       <li>5G connectivity</li>
+                       <li>6.7 inches, 108.0 cm2 , AMOLED, 1B colors, 120Hz, 800 nits (HBM), 950 nits (peak)</li>
+                       <li>Processor: Qualcomm Snapdragon 888 octa-core processor</li>
+                       <li>256GB internal storage </li>
+                       <li>8GB RAM</li>
+                       <li>Battery: 5000mAh battery with 65W SuperDart Charge</li>         
+                     </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-realme12pro+5g" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('realme12pro+5g')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('realme12pro+5g')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================IPHONE 13 PRO MAX===================================-->
+        <div class = "card">
+                <img src = "/images/iphone 13 pro max.jpg" class = "card-img" alt = "iphone 13 pro max">
+                <div class = "card-body">
+                    <h1 class = "card-title"> iPhone 13 Pro Max </h1>
+                    <p class = "card-sub-title"> Price: ₱ 73,990.00 </p>
+                    <p class = "card-info"> Experience excellence: Super Retina XDR display, A15 Bionic chip, triple-camera brilliance
+                     <ul class = "specs">
+                      <li>Display: 6.7-inch Super Retina XDR OLED</li>
+                      <li>Chipset: A15 Bionic</li>
+                      <li>Camera: Triple 12 MP rear cameras, 12 MP front camera</li>
+                      <li>Storage Options: 128GB, 256GB, 512GB, 1TB</li>
+                      <li>Battery: Up to 28 hours talk time (non-removable)</li>
+                    </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-iPhone13ProMax" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('iPhone13ProMax')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('iPhone13ProMax')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================IPHONE 13 PRO ===================================-->
+        <div class = "card">
+                <img src = "/images/Iphone 13 pro.jpg" class = "card-img" alt = "iphone 13 pro">
+                <div class = "card-body">
+                    <h1 class = "card-title"> iPhone 13 Pro </h1>
+                    <p class = "card-sub-title"> Price: ₱65,990 </p>
+                    <p class = "card-info"> iPhone 13 Pro: ProMotion, Ceramic Shield, cinematic mode — exceptional performance and versatility
+                     <ul class = "specs">
+                       <li>Display: 6.1-inch Super Retina XDR OLED</li>
+                       <li>Chipset: A15 Bionic</li>
+                       <li>Camera: Triple 12 MP rear cameras, 12 MP front camera</li>
+                       <li>Storage Options: 128GB, 256GB, 512GB, 1TB</li>
+                       <li>Battery: Up to 22 hours talk time (non-removable)</li>
+                     </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-iPhone13Pro" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('iPhone13Pro')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('iPhone13Pro')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================IPHONE 12 PRO MAX===================================-->
+        <div class = "card">
+                <img src = "/images/iphone 12 pro max.jpg" class = "card-img" alt = "iphone 12 Pro Max">
+                <div class = "card-body">
+                    <h1 class = "card-title"> iPhone 12 Pro Max </h1>
+                    <p class = "card-sub-title"> Price: ₱73,990.00 </p>
+                    <p class = "card-info"> iPhone 12 Pro Max: Edge-to-edge Super Retina XDR display, LiDAR scanner, 5G speed
+                     <ul class = "specs">
+                       <li>Display: 6.7-inch Super Retina XDR OLED</li>
+                       <li>Chipset: A14 Bionic</li>
+                       <li>Camera: Triple 12 MP rear cameras, 12 MP front camera</li>
+                       <li>Storage Options: 128GB, 256GB, 512GB, 1TB</li>
+                       <li>Battery: Up to 20 hours talk time (non-removable)</li>
+                    </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-iPhone12ProMax" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('iPhone12ProMax')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('iPhone12ProMax')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================IPHONE XR===================================-->
+        <div class = "card">
+                <img src = "/images/iphone xr.jpg" class = "card-img" alt = "iphone XR">
+                <div class = "card-body">
+                    <h1 class = "card-title"> iPhone XR </h1>
+                    <p class = "card-sub-title"> Price: ₱30,990.00 </p>
+                    <p class = "card-info"> iPhone XR: 6.1" Liquid Retina display, Face ID, A12 Bionic chip, single-camera brilliance, all-day battery
+                     <ul class = "specs">
+                       <li>Display: 6.7-inch Super Retina XDR OLED</li>
+                       <li>Chipset: A14 Bionic</li>
+                       <li>Camera: Triple 12 MP rear cameras, 12 MP front camera</li>
+                       <li>Storage Options: 128GB, 256GB, 512GB, 1TB</li>
+                       <li>Battery: Up to 20 hours talk time (non-removable)</li>
+                    </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-iPhone XR" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('iPhone XR')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('iPhone XR')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================IPHONE XS MAX===================================-->
+        <div class = "card">
+                <img src = "/images/iphone xs max.jpg" class = "card-img" alt = "iPhone XS Max">
+                <div class = "card-body">
+                    <h1 class = "card-title"> iPhone XS Max </h1>
+                    <p class = "card-sub-title"> Price: ₱74,990.00 </p>
+                    <p class = "card-info"> iPhone XS Max: 6.5" Super Retina OLED, A12 Bionic chip, dual 12MP rear cameras with Portrait Mode
+                     <ul class = "specs">
+                       <li> Display: 6.5-inch Super Retina OLED display with HDR10 and Dolby Vision </li>
+                       <li> Chipset: A12 Bionic chip with Neural Engine </li>
+                       <li> Camera: Dual 12 MP wide-angle and telephoto rear cameras, 7 MP TrueDepth front camera </li>
+                       <li> Storage Options: 64GB, 256GB, 512GB </li>
+                       <li> Battery: Up to 25 hours talk time (non-removable) </li>
+                    </ul>
+                    </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-iPhone XS Max" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('iPhone XS Max')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('iPhone XS Max')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================BLUETOOTH EARBUDS===================================-->
+        <div class = "card">
+                <img src = "/images/earbuds.jpg" class = "card-img" alt = "Bluetooth Earbuds">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Bluetooth Earbuds </h1>
+                    <p class = "card-sub-title"> Price: ₱189.00 </p>
+                    <p class = "card-info"> High-quality sound, wireless connectivity </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Bluetooth Earbuds" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Bluetooth Earbuds')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Bluetooth Earbuds')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================POPSOCKET===================================-->
+        <div class = "card">
+                <img src = "/images/popsocket.jpg" class = "card-img" alt = "Popsocket">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Popsocket </h1>
+                    <p class = "card-sub-title"> Price: ₱70.00 </p>
+                    <p class = "card-info"> Convenient grip for your phone </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-popsocket" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('popsocket')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('popsocket')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================WIRELESS===================================-->
+        <div class = "card">
+                <img src = "/images/wirelesscharger.jpg" class = "card-img" alt = "Wireless Charger">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Wireless Charger </h1>
+                    <p class = "card-sub-title"> Price:  ₱350.00 </p>
+                    <p class = "card-info"> Fast charging for your devices </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-charger" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('charger')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('charger')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===================================PHONE STAND===================================-->
+        <div class = "card">
+                <img src = "/images/phonestand.avif" class = "card-img" alt = "Phone Stand">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Phone Stand </h1>
+                    <p class = "card-sub-title"> Price: ₱299.00 </p>
+                    <p class = "card-info"> Adjustable stand for your phone </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-stand" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('stand')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('stand')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--===============================(MOBILE)GAMING CONTROLLER=================================-->
+        <div class = "card">
+                <img src = "/images/controller.jpg" class = "card-img" alt = "(Mobile) Gaming Controller">
+                <div class = "card-body">
+                    <h1 class = "card-title"> (Mobile) Gaming Controller </h1>
+                    <p class = "card-sub-title"> Price: ₱40.00 </p>
+                    <p class = "card-info"> High-quality gaming controller for mobile devices </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-controller" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('controller')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('controller')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--=====================================POWER BANK=======================================-->
+        <div class = "card">
+                <img src = "/images/powerbank.jpg" class = "card-img" alt = "Power Bank">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Power Bank </h1>
+                    <p class = "card-sub-title"> Price: ₱999.00 </p>
+                    <p class = "card-info"> Fast charging capabilities and a high capacity battery </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Power Bank" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Power Bank')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Power Bank')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--=====================================SELFIE STICK=======================================-->
+        <div class = "card">
+                <img src = "/images/selfiestick.jpg" class = "card-img" alt = "Selfie Stick">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Selfie Stick </h1>
+                    <p class = "card-sub-title"> Price: ₱150.00 </p>
+                    <p class = "card-info"> Adjustable extension arm and 360-degree rotation </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Selfie Stick" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Selfie Stick')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Selfie Stick')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--====================================PHONE GRIP RING======================================-->
+        <div class = "card">
+                <img src = "/images/Phone Grip Ring.jpg" class = "card-img" alt = "Phone Grip Ring">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Phone Grip Ring </h1>
+                    <p class = "card-sub-title"> Price: ₱99.00 </p>
+                    <p class = "card-info"> A secure holder that prevents accidental drops </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Phone Grip Ring" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Phone Grip Ring')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Phone Grip Ring')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--====================================STYLUS PEN======================================-->
+        <div class = "card">
+                <img src = "/images/Stylus Pen.jpg" class = "card-img" alt = "Stylus Pen">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Stylus Pen </h1>
+                    <p class = "card-sub-title"> Price: ₱300.00 </p>
+                    <p class = "card-info"> Offers a smooth and responsive writing and drawing experience </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Stylus Pen" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Stylus Pen')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Stylus Pen')"> Buy Now </button>
+                </div>
+            </div>
+        
+        <!--====================================STYLUS PEN======================================-->
+        <div class = "card">
+                <img src = "/images/Phone cleaning kit.jpg" class = "card-img" alt = "Phone cleaning kit">
+                <div class = "card-body">
+                    <h1 class = "card-title"> Phone Cleaning Kit </h1>
+                    <p class = "card-sub-title"> Price: ₱199.00 </p>
+                    <p class = "card-info"> Keeping your device sparkling clean and germ-free! experience </p>
+        
+                    <input class = "input-box" type = "number" id = "quantity-Phone Cleaning Kit" value = "1" min = "1" max = "50">
+                    <button class = "card-button" onclick = "addToCart('Phone Cleaning Kit')"> Add to Cart </button>
+                    <button class = "card-button" onclick = "buyNow('Phone Cleaning Kit')"> Buy Now </button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
